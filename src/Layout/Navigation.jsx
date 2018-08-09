@@ -47,7 +47,7 @@ class Navigation extends Component {
                 <NavLink tag={RRNavLink} activeClassName="active" to="/technology">Technology</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={RRNavLink} activeClassName="active" to="/music">Music</NavLink>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/music">Music & Audio</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={RRNavLink} activeClassName="active" to="/contact">Contact</NavLink>
