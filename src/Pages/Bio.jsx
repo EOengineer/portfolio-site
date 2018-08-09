@@ -1,30 +1,27 @@
 import React, { Component } from 'react';
 import { Container, Jumbotron, Button, Row, Col } from 'reactstrap';
-// import HomeImage from '../Images/HomeImage.jpg';
-import HomeImage from '../Images/HomeImage2.jpg';
 
-const style = {
-	background: `url(${HomeImage}) no-repeat center center`,
-	backgroundSize: 'cover',
-}
+import Hero from '../Layout/Hero';
+
+import BioImage from '../Images/BioImage.jpg';
+
 
 class Bio extends Component {
   render() {
     return (
       <React.Fragment>
-        <Jumbotron fluid style={style} className="text-left">
-	        <Container>
-        		<Row>
-	      			<Col sm="12" md={{size: 8, offset: 1}} className="text-left">
-				        <h3 className="display-3 text-white">Bio</h3>
-				        <p className="lead text-white">My life as a developer getting things done in the real world.</p>
-				        <p className="lead">
-				          <Button color="primary">View My Work</Button>
-				        </p>
-			        </Col>
-		        </Row>
-	        </Container>
-	      </Jumbotron>
+        <Hero
+	      	heroStyle={{
+						background: `url(${BioImage}) no-repeat center center`,
+						backgroundSize: 'cover',
+						textAlign: 'right'
+					}}
+					position={{size: 5, offset: 6}}
+	      	heading="Bio"
+	      	subHeading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris."
+	      	buttonCTA="View My Work"
+	      	buttonUrl="/projects"
+	      />
 
 	      <Container>
 	      <Row>

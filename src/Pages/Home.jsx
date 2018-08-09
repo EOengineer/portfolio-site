@@ -25,8 +25,9 @@ class Home extends Component {
 						marginBottom: 0,
 						textAlign: 'left'
 					}}
+					position={{size: 5, offset: 1}}
 	      	heading="Welcome"
-	      	subHeading="See how I can help your business."
+	      	subHeading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris."
 	      	buttonCTA="View My Work"
 	      	buttonUrl="/projects"
 	      />
@@ -39,9 +40,9 @@ class Home extends Component {
 						marginBottom: 0
 	      	}}
 	      >
-	      	<Col sm="12" md={{size: 8, offset: 3}}>
+	      	<Col sm="12" md={{size: 5, offset: 6}}>
 		      	<h3 className="display-3 text-white">My Bio</h3>
-		        <p className="lead text-white">.</p>
+		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
 		        <p className="lead">
 		          <Link to="/bio" className="btn btn-primary">View My Bio</Link>
 		        </p>
@@ -56,9 +57,9 @@ class Home extends Component {
 						marginBottom: 0
 	      	}}
 	      >
-	      	<Col sm="12" md={{size: 8, offset: 1}}>
+	      	<Col sm="12" md={{size: 5, offset: 1}}>
 		      	<h3 className="display-3 text-white">My Work</h3>
-		        <p className="lead text-white">.</p>
+		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
 		        <p className="lead">
 		          <Link to="/projects" className="btn btn-primary">View My Work</Link>
 		        </p>
@@ -73,9 +74,9 @@ class Home extends Component {
 						marginBottom: 0
 	      	}}
 	      >
-	      	<Col sm="12" md={{size: 8, offset: 3}}>
+	      	<Col sm="12" md={{size: 5, offset: 6}}>
 		      	<h3 className="display-3 text-white">Technology</h3>
-		        <p className="lead text-white">.</p>
+		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
 		        <p className="lead">
 		          <Link to="/technology" className="btn btn-primary">View Tech Stack</Link>
 		        </p>
@@ -90,9 +91,9 @@ class Home extends Component {
 						marginBottom: 0
 	      	}}
 	      >
-	      	<Col sm="12" md={{size: 8, offset: 1}}>
+	      	<Col sm="12" md={{size: 5, offset: 1}}>
 		      	<h3 className="display-3 text-white">Audio & Music</h3>
-		        <p className="lead text-white">.</p>
+		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
 		        <p className="lead">
 		          <Link to="/music" className="btn btn-primary">Take A Listen</Link>
 		        </p>
