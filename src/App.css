@@ -26,3 +26,10 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@media only screen and (max-width: 600px) {
+  .logo-item {
+    min-height: 200px;
+  }
+}
+
