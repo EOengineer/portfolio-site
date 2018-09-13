@@ -19,7 +19,7 @@ import CSharp from '../Images/CSharp.png';
 import Golang from '../Images/Golang.png';
 
 const FlexItem = props => (
-		<div className="logo-item flex-fill p-2" key={1}><img src={props.tech.image} width="200" /></div>
+		<div className="logo-item flex-fill p-2" key={1}><img src={props.tech.image} /></div>
 	)
 
 

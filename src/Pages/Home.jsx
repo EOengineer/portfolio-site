@@ -26,11 +26,28 @@ class Home extends Component {
 						textAlign: 'left'
 					}}
 					position={{size: 5, offset: 1}}
-	      	heading="Welcome"
-	      	subHeading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris."
+	      	heading="Noise & Code"
+	      	subHeading="A site all about my experiences as an audio engineer turned software developer."
 	      	buttonCTA="View My Work"
 	      	buttonUrl="/projects"
 	      />
+
+	      <BannerSection
+	      	bannerStyle={{
+	      		background: `none`,
+						backgroundSize: 'cover',
+						textAlign: 'center',
+						marginBottom: 0
+	      	}}
+	      >
+	      	<Col sm="12" md={{size: 8, offset: 2}} style={{borderLeft: '1px solid lightgray', borderRight: '1px solid lightgray'}}>
+		      	{/*<h3 className="display-3 text-black">My Bio</h3>*/}
+		        <p className="lead text-black">Welcome to Noise & Code, a site that serves as my personal playground and public journal for all things art & technology. Please feel free to explore. I will be periodically updating this site with new work, information, audio articles, and blog posts as they develop.</p>
+		        <p className="lead">
+		          {/*<Link to="/bio" className="btn btn-primary">View My Bio</Link>*/}
+		        </p>
+	        </Col>
+	      </BannerSection>
 
 	      <BannerSection
 	      	bannerStyle={{
@@ -42,7 +59,7 @@ class Home extends Component {
 	      >
 	      	<Col sm="12" md={{size: 5, offset: 6}}>
 		      	<h3 className="display-3 text-white">My Bio</h3>
-		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+		        <p className="lead text-white">Where I started, where I've been, and where I'm going.</p>
 		        <p className="lead">
 		          <Link to="/bio" className="btn btn-primary">View My Bio</Link>
 		        </p>
@@ -59,7 +76,7 @@ class Home extends Component {
 	      >
 	      	<Col sm="12" md={{size: 5, offset: 1}}>
 		      	<h3 className="display-3 text-white">My Work</h3>
-		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+		        <p className="lead text-white">Completed production work currently out in the wild, as well as ongoing personal and toy projects.</p>
 		        <p className="lead">
 		          <Link to="/projects" className="btn btn-primary">View My Work</Link>
 		        </p>
@@ -76,7 +93,7 @@ class Home extends Component {
 	      >
 	      	<Col sm="12" md={{size: 5, offset: 6}}>
 		      	<h3 className="display-3 text-white">Technology</h3>
-		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+		        <p className="lead text-white">The tools and toys I'm passionate about, and how I use them to stay a happy, current, and effective developer.</p>
 		        <p className="lead">
 		          <Link to="/technology" className="btn btn-primary">View Tech Stack</Link>
 		        </p>
@@ -93,7 +110,7 @@ class Home extends Component {
 	      >
 	      	<Col sm="12" md={{size: 5, offset: 1}}>
 		      	<h3 className="display-3 text-white">Audio & Music</h3>
-		        <p className="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+		        <p className="lead text-white">Music compositions, audio engineering projects, guitars, amps, crazy devices, and music technology related topics</p>
 		        <p className="lead">
 		          <Link to="/music" className="btn btn-primary">Take A Listen</Link>
 		        </p>

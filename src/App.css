@@ -27,6 +27,22 @@
   to { transform: rotate(360deg); }
 }
 
+.logo-item {
+    height: 300px;
+    width: 300px;
+  }
+
+.logo-item:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.logo-item img {
+  max-height: 200px;
+  max-width: 200px;
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .logo-item {
     min-height: 200px;
