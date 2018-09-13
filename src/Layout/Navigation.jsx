@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, NavLink as RNavLink } from 'react-router-dom'
+import { Link, NavLink as RRNavLink } from 'react-router-dom'
 
 import {
   Collapse,
@@ -38,19 +38,19 @@ class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink tag={Link} to="/bio">Bio</NavLink>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/bio">Bio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/projects">Projects</NavLink>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/projects">Projects</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/technology">Technology</NavLink>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/technology">Technology</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/music">Music</NavLink>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/music">Music & Audio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/contact">Contact</NavLink>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
