@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import { Container, Jumbotron, Button, Row, Col } from 'reactstrap';
+import { Container, Jumbotron, Button, Row, Col, Badge } from 'reactstrap';
 
 // Layout Components
 import Hero from '../Layout/Hero';
@@ -47,22 +47,6 @@ class Work extends Component {
 	      />
 
 	      <BannerSection bannerStyle={bannerStyle}>
-	      	<Col sm="12" md="6">
-		      	<h3 className="display-3">S.O.S</h3>
-		        <p className="lead">Surgical Outcomes System (SOS) is a medical outcomes monitoring system that allows physicians to monitor the well-being of their patients through the post surgery recovery process.</p>
-		        <p className="lead">
-		          <a href="https://www.surgicaloutcomessystem.com" target="_blank" className="btn btn-primary">Visit</a>
-		        </p>
-	        </Col>
-	      	<Col 
-	      		sm="12" 
-	      		md="6" 
-	      		style={this.imageStyle(SOS)}
-	      	>
-	        </Col>
-	      </BannerSection>
-
-	      <BannerSection bannerStyle={bannerStyle}>
 	      	<Col 
 	      		sm="12" 
 	      		md="6" 
@@ -76,21 +60,30 @@ class Work extends Component {
 		        <p className="lead">
 		          <a href="https://www.orthoillustrated.com/" target="_blank" className="btn btn-primary">Visit</a>
 		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="danger" pill>Ruby/Rails</Badge>
 	        </Col>
 	      </BannerSection>
 
 	      <BannerSection bannerStyle={bannerStyle}>
 	      	<Col sm="12" md="6">
-		      	<h3 className="display-3">ReadyNation International</h3>
-		        <p className="lead">ReadyNation International is an informational site cataloging policy and news related to early childhood development in the US and around the world.</p>
+		      	<h3 className="display-3">S.O.S</h3>
+		        <p className="lead">Surgical Outcomes System (SOS) is a medical outcomes monitoring system that allows physicians to monitor the well-being of their patients through the post surgery recovery process.</p>
 		        <p className="lead">
-		          <a href="https://www.readynationinternational.org/" target="_blank" className="btn btn-primary">Visit</a>
+		          <a href="https://www.surgicaloutcomessystem.com" target="_blank" className="btn btn-primary">Visit</a>
 		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="danger" pill>Ruby/Rails</Badge>
+		        <Badge color="primary" pill>React</Badge>
 	        </Col>
 	      	<Col 
 	      		sm="12" 
 	      		md="6" 
-	      		style={this.imageStyle(ReadyNationInternational)}
+	      		style={this.imageStyle(SOS)}
 	      	>
 	        </Col>
 	      </BannerSection>
@@ -108,6 +101,10 @@ class Work extends Component {
 		        <p className="lead">
 		          <a href="https://www.geofunders.org/" target="_blank" className="btn btn-primary">Visit</a>
 		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="danger" pill>Ruby/Rails</Badge>
 	        </Col>
 	      </BannerSection>
 
@@ -118,11 +115,56 @@ class Work extends Component {
 		        <p className="lead">
 		          <a href="https://www.umcjustice.org/" target="_blank" className="btn btn-primary">Visit</a>
 		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="danger" pill>Ruby/Rails</Badge>
 	        </Col>
 	      	<Col 
 	      		sm="12" 
 	      		md="6" 
 	      		style={this.imageStyle(GCBS)}
+	      	>
+	        </Col>
+	      </BannerSection>
+
+	      <BannerSection bannerStyle={bannerStyle}>
+	      	<Col 
+	      		sm="12" 
+	      		md="6" 
+	      		style={this.imageStyle(ReadyNationInternational)}
+	      	>
+	        </Col>
+	      	<Col sm="12" md="6">
+		      	<h3 className="display-3">ReadyNation International</h3>
+		        <p className="lead">ReadyNation International is an informational site cataloging policy and news related to early childhood development in the US and around the world.</p>
+		        <p className="lead">
+		          <a href="https://www.readynationinternational.org/" target="_blank" className="btn btn-primary">Visit</a>
+		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="danger" pill>Ruby/Rails</Badge>
+	        </Col>
+	      </BannerSection>
+
+	      <BannerSection bannerStyle={bannerStyle}>
+	      	<Col sm="12" md="6">
+		      	<h3 className="display-3">Sales Dashboard</h3>
+		        <p className="lead">The Caterease Sales Dashboard allows Caterease enterprise customers to view their sales and item usage numbers through via a web portal using a series of charts and responsive tables.</p>
+		        <p className="lead">
+		          <a href="" target="_blank" className="btn btn-primary disabled">Login Required</a>
+		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="secondary" pill>C#/.NetCore</Badge>
+		        <Badge color="primary" pill>React</Badge>
+	        </Col>
+	      	<Col 
+	      		sm="12" 
+	      		md="6" 
+	      		style={this.imageStyle(SalesDashboard)}
 	      	>
 	        </Col>
 	      </BannerSection>
@@ -140,24 +182,14 @@ class Work extends Component {
 		        <p className="lead">
 		          <a href="https://angelapp.arthrex.com/logins/new?redirect_to=%2F" target="_blank" className="btn btn-primary disabled">Login Required</a>
 		        </p>
+		        <Badge color="dark" pill>HTML5</Badge>
+		        <Badge color="warning" pill>JS</Badge>
+		        <Badge color="info" pill>SCSS</Badge>
+		        <Badge color="danger" pill>Ruby/Rails</Badge>
 	        </Col>
 	      </BannerSection>
 
-	      <BannerSection bannerStyle={bannerStyle}>
-	      	<Col sm="12" md="6">
-		      	<h3 className="display-3">Sales Dashboard</h3>
-		        <p className="lead">The Caterease Sales Dashboard allows Caterease enterprise customers to view their sales and item usage numbers through via a web portal using a series of charts and responsive tables.</p>
-		        <p className="lead">
-		          <a href="" target="_blank" className="btn btn-primary disabled">Login Required</a>
-		        </p>
-	        </Col>
-	      	<Col 
-	      		sm="12" 
-	      		md="6" 
-	      		style={this.imageStyle(SalesDashboard)}
-	      	>
-	        </Col>
-	      </BannerSection>
+	      
 
       </React.Fragment>
     );
