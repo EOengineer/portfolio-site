@@ -15,9 +15,12 @@ class Hero extends Component {
       			<Col sm="12" md={position}>
 			        <h3 className="display-3 text-white">{heading}</h3>
 			        <p className="lead text-white">{subHeading}</p>
-			        <p className="lead">
-			          <Link to={buttonUrl} className="btn btn-primary">{buttonCTA}</Link>
-			        </p>
+
+              { buttonCTA &&
+  			        <p className="lead">
+  			          <Link to={buttonUrl} className="btn btn-primary">{buttonCTA}</Link>
+  			        </p>
+              }
 		        </Col>
 	        </Row>
         </Container>

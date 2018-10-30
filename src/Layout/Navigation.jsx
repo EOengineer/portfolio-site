@@ -37,18 +37,21 @@ class Navigation extends Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
-              <NavItem>
+              {/*<NavItem>
                 <NavLink tag={RRNavLink} activeClassName="active" to="/bio">Bio</NavLink>
+              </NavItem>*/}
+              <NavItem>
+                <NavLink tag={RRNavLink} activeClassName="active" to="/work">Work</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={RRNavLink} activeClassName="active" to="/projects">Projects</NavLink>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
                 <NavLink tag={RRNavLink} activeClassName="active" to="/technology">Technology</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={RRNavLink} activeClassName="active" to="/music">Music & Audio</NavLink>
-              </NavItem>
+              </NavItem>*/}
               <NavItem>
                 <NavLink tag={RRNavLink} activeClassName="active" to="/contact">Contact</NavLink>
               </NavItem>
