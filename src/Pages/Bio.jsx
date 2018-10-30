@@ -18,7 +18,7 @@ class Bio extends Component {
 					}}
 					position={{size: 5, offset: 6}}
 	      	heading="Bio"
-	      	subHeading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris."
+	      	subHeading="Completed production work currently out in the wild, as well as ongoing personal and toy projects."
 	      	buttonCTA="View My Work"
 	      	buttonUrl="/projects"
 	      />
@@ -26,13 +26,15 @@ class Bio extends Component {
 	      <Container>
 	      <Row>
 	      	<Col sm="12" md={{size: 8, offset: 1}} className="text-left">
-		      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+		      	<p>I'm originally a Chicago-area native, but have lived in the Carolinas, Florida, Boston, and the Washington DC area. I owe my appreciation for all things music and audio to a musically inclined family.  I have fond childhood memories of family BBQs cascading into late night jam sessions where acoustic guitars, banjos, and even an electric organ often made an appearance.</p>
 
-						<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
+						<p>This appreciation quickly grew into an obsession when, as a teenager in the 90s, I picked up my first guitar and started learning Nirvana songs.  It wasn't long before I discovered 4 track tape recorders, then computers, and then figured out how to record guitars into our family computer. My interest in the recording arts expanded with emerging technologies and I began using Digital Audio Workstations (DAWs) to compose, arrange, and record music.  Eventually I decided to start the process of turning this obsession into a career and attended college in Boston, MA, eventually graduating with a degree in Audio Production.</p>
 
-						<p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. </p>
+						<p>As I continued to dig deeper into the application of technology to solve problems in the audio world, I started to become interested in what drove that technology.  My exploration into development started, like many, with static HTML and CSS pages.  Then I started looking into dynamic languages and discovered <a href="www.codeacademy.com">code academy</a>, which afforded me the opportunity to very quickly start working with Ruby, and then Javascript, applying code to solve problems.  I was addicted.</p>
 
-						<p>Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi.</p> 
+						<p>In the winter of 2014 I decided to take my fascination with development to the next level.  I left my job working as an Audio Technology Consultant and attended <a href="www.launchacademy.com">Launch Academy</a>, a 12 week immersive full stack development bootcamp located in Boston.</p> 
+
+						<p>I successfully completed the program and have been working in the industry for a diverse set of companies ranging from medical device manufacturers, political action commities, food service industry professionals, and more.</p> 
 					</Col>
 	      </Row>
 	      </Container>
